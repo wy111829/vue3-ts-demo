@@ -1,4 +1,5 @@
-import { createStore } from "vuex";
-const store = createStore({});
+import { createStore } from 'vuex'
 
-export default store;
+const store = createStore({})
+
+export default store
