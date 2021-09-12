@@ -77,15 +77,10 @@ module.exports = {
       }
     ],
     'handle-callback-err': [2, '^(err|error)$'],
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx']
-    },
-    'import/resolver': {
-      typescript: {
-        alwaysTryTypes: true,
-        paths: './tsconfig.json'
-      }
-    },
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off',
+    'import/no-absolute-path': 'off',
+    'import/no-extraneous-dependencies': 'off',
     indent: [
       2,
       2,
